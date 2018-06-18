@@ -1,5 +1,10 @@
 # -Dictionary-
 
+This project implemented C++ containers using binary search tree. It simulate standard C++ container map.
+Each element in the container has a Key element(KeyType) and a Value element(ItemType). Each Key is unique. Keys can be integers, string or more complex objects. Keys are comparable (operations ==, !=, >, <, >=, <= should be defined for keys). 
+We can manipulate the container by the unique Keys.
+
+
 Below is the project discription by the course instructor:
 
 You should submit me Dictionary.h and Dictionary.cpp files. There should be declaration and implementation of Dictionary class template in these files. Dictionary class emulates the already existing C++ map container. Name “Dictionary” is actually taken from Python analog of C++ map. You are NOT allowed to use any implemented C++ containers.
